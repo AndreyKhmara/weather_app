@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-size: 100%;
+    background-image: url('/home/andrey/Документы/Временная папка/wether/client/public/containers.jpg'); */
+
+}
+
+
+
+.modal {
+
+    padding: 50px;
+    position: relative;
+    top: 100px;
+
+
+
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.input_button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
